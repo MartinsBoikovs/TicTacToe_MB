@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DCC9C9"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/pvc"
+        android:layout_width="130dp"
+        android:layout_height="64dp"
+        android:text="1 Player"
+        android:textColor="#FFC107"
+        android:textStyle="bold|italic"
+        app:backgroundTint="#176477"
+        app:iconPadding="10dp"
+        app:iconTint="#601818"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.79"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.627" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="404dp"
+        android:layout_height="79dp"
+        android:layout_marginTop="256dp"
+        android:fontFamily="serif"
+        android:text="You are welcome in innovative TicTacToe game!"
+        android:textAlignment="center"
+        android:textColor="#E91E63"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        android:typeface="serif"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/pvp"
+        android:layout_width="130dp"
+        android:layout_height="61dp"
+        android:text="2 Players"
+        android:textColor="#FFC107"
+        android:textStyle="bold|italic"
+        app:backgroundTint="#45081B"
+        app:iconPadding="10dp"
+        app:iconTint="#802424"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.199"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.625" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
